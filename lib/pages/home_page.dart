@@ -59,7 +59,7 @@ class HomePageState extends State<HomePage> {
                   SizedBox(
                       width: cardWidth,
                       child: const Padding(
-                        padding: EdgeInsets.only(top: 50),
+                        padding: EdgeInsets.only(top: 50, bottom: 20),
                         child: Center(
                           child: Text(
                             'Welcome to ShipCentral!',
