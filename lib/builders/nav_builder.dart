@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'navigation_bar.dart';
 import '../pages/home_page.dart';
+import '../pages/orders_page.dart';
 
 class ResponsiveLayout extends StatelessWidget {
   final int pageIndex;
@@ -17,7 +18,7 @@ class ResponsiveLayout extends StatelessWidget {
   Widget build(BuildContext context) {
     List<Widget> pages = [
       const HomePage(),
-      //const BenefitsPage(),
+      const OrdersPage(),
       //const OverviewPage(),
       //const AlertsPage(),
       //const AccountPage(),

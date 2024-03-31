@@ -49,7 +49,7 @@ class HomePageState extends State<HomePage> {
             alignment: Alignment.topCenter,
             children: [
               Container(
-                height: 170,
+                height: 200,
                 decoration: BoxDecoration(
                   color: Theme.of(context).colorScheme.secondaryContainer,
                 ),
@@ -74,7 +74,7 @@ class HomePageState extends State<HomePage> {
                     padding: const EdgeInsets.only(top: 16),
                     child: SizedBox(
                       width: cardWidth,
-                      height: 180,
+                      height: 200,
                       child: Card(
                         child: Padding(
                           padding: const EdgeInsets.only(left: 8, top: 20),
