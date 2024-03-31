@@ -49,7 +49,7 @@ class HomePageState extends State<HomePage> {
             alignment: Alignment.topCenter,
             children: [
               Container(
-                height: 200,
+                height: 190,
                 decoration: BoxDecoration(
                   color: Theme.of(context).colorScheme.secondaryContainer,
                 ),
