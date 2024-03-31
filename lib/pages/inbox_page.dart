@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class InboxPage extends StatelessWidget {
-  const InboxPage({Key? key}) : super(key: key);
+  const InboxPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -11,7 +11,7 @@ class InboxPage extends StatelessWidget {
         title: const Padding(
           padding: EdgeInsets.only(top: 15.0),
           child: Text(
-            'Inbox',
+            'Inbox (7)',
             style: TextStyle(
               fontWeight: FontWeight.bold,
               fontSize: 30,
