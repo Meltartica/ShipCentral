@@ -74,7 +74,7 @@ class HomePageState extends State<HomePage> {
                     padding: const EdgeInsets.only(top: 16),
                     child: SizedBox(
                       width: cardWidth,
-                      height: 200,
+                      height: 190,
                       child: Card(
                         child: Padding(
                           padding: const EdgeInsets.only(left: 8, top: 20),

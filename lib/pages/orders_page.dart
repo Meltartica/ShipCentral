@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class OrdersPage extends StatelessWidget {
@@ -37,7 +36,7 @@ class OrdersPage extends StatelessWidget {
           children: [
             const SizedBox(height: 50),
             Padding(
-              padding: EdgeInsets.only(left: 115),
+              padding: const EdgeInsets.only(left: 115),
               child: CustomPaint(
                 size: const Size(30, 20),
                 painter: TrianglePainter(),
@@ -177,10 +176,10 @@ class OrdersPage extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 18),
-            const SizedBox(
-              width: 400,
+            SizedBox(
+              width: MediaQuery.of(context).size.width * 0.95,
               height: 300,
-              child: Card(
+              child: const Card(
                   child: Column(
                 children: [
                   Align(
