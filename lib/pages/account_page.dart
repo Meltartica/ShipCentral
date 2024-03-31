@@ -24,6 +24,63 @@ class AccountPage extends StatelessWidget {
           child: Center(
               child: Column(
             children: [
+              const SizedBox(height: 8),
+              SizedBox(
+                width: MediaQuery.of(context).size.width * 0.975,
+                height: 80,
+                child: Card(
+                  child: Center(
+                    child: ListTile(
+                      leading: const Icon(Icons.person),
+                      title: const Text(
+                        'John Doe',
+                        style: TextStyle(
+                          fontSize: 24,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      trailing: SizedBox(
+                        width: 50,
+                        height: 50,
+                        child: IconButton(
+                          icon: const Icon(Icons.edit),
+                          onPressed: () {
+
+                          },
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+              SizedBox(
+                width: MediaQuery.of(context).size.width * 0.975,
+                height: 80,
+                child: Card(
+                  child: Center(
+                    child: ListTile(
+                      leading: const Icon(Icons.format_list_bulleted),
+                      title: const Text(
+                        'Address Book',
+                        style: TextStyle(
+                          fontSize: 24,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      trailing: SizedBox(
+                        width: 50,
+                        height: 50,
+                        child: IconButton(
+                          icon: const Icon(Icons.arrow_forward_ios),
+                          onPressed: () {
+
+                          },
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+              ),
               SizedBox(
                   width: MediaQuery.of(context).size.width * 0.95,
                   child: const Padding(

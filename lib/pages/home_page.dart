@@ -179,6 +179,14 @@ class HomePageState extends State<HomePage> {
                       endIndent: 30,
                     ),
                   ),
+                  const Padding(
+                    padding: EdgeInsets.only(top: 16),
+                    child: Divider(
+                      thickness: 1,
+                      indent: 30,
+                      endIndent: 30,
+                    ),
+                  ),
                   SizedBox(
                       width: cardWidth,
                       child: const Padding(
@@ -325,8 +333,7 @@ class HomePageState extends State<HomePage> {
                     width: cardWidth,
                     child: Center(
                       child: ElevatedButton.icon(
-                        onPressed: () {
-                        },
+                        onPressed: () {},
                         icon: const Icon(Icons.refresh),
                         label: const Text('Load More'),
                       ),

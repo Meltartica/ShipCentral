@@ -24,6 +24,12 @@ class NavigationDestinations {
         padding: paddingValue,
       ),
       const NavigationRailDestination(
+        icon: Icon(Icons.compare_outlined),
+        selectedIcon: Icon(Icons.compare_rounded),
+        label: Text('Compare'),
+        padding: paddingValue,
+      ),
+      const NavigationRailDestination(
         icon: Icon(Icons.person_outline),
         selectedIcon: Icon(Icons.person_rounded),
         label: Text('Account'),
@@ -48,6 +54,11 @@ class NavigationDestinations {
         icon: Icon(Icons.inbox_outlined),
         selectedIcon: Icon(Icons.inbox_rounded),
         label: 'Inbox',
+      ),
+      const NavigationDestination(
+        icon: Icon(Icons.compare_outlined),
+        selectedIcon: Icon(Icons.compare_rounded),
+        label: 'Compare',
       ),
       const NavigationDestination(
         icon: Icon(Icons.person_outline),

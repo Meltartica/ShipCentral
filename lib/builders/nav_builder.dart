@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:shipcentral/pages/orders_page.dart';
 import 'navigation_bar.dart';
 import '../pages/home_page.dart';
-import '../pages/orders_page.dart';
 import '../pages/inbox_page.dart';
 import '../pages/account_page.dart';
+import '../pages/compare_page.dart';
 
 class ResponsiveLayout extends StatelessWidget {
   final int pageIndex;
@@ -22,6 +23,7 @@ class ResponsiveLayout extends StatelessWidget {
       const HomePage(),
       const OrdersPage(),
       const InboxPage(),
+      const ComparePage(),
       const AccountPage(),
     ];
 
