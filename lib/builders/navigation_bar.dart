@@ -18,15 +18,15 @@ class NavigationDestinations {
         padding: paddingValue,
       ),
       const NavigationRailDestination(
-        icon: Icon(Icons.payment_outlined),
-        selectedIcon: Icon(Icons.payment_rounded),
-        label: Text('Payments'),
-        padding: paddingValue,
-      ),
-      const NavigationRailDestination(
         icon: Icon(Icons.inbox_outlined),
         selectedIcon: Icon(Icons.inbox_rounded),
         label: Text('Inbox'),
+        padding: paddingValue,
+      ),
+      const NavigationRailDestination(
+        icon: Icon(Icons.person_outline),
+        selectedIcon: Icon(Icons.person_rounded),
+        label: Text('Account'),
         padding: paddingValue,
       ),
     ];
@@ -45,14 +45,14 @@ class NavigationDestinations {
         label: 'Orders',
       ),
       const NavigationDestination(
-        icon: Icon(Icons.payment_outlined),
-        selectedIcon: Icon(Icons.payment_rounded),
-        label: 'Payments',
-      ),
-      const NavigationDestination(
         icon: Icon(Icons.inbox_outlined),
         selectedIcon: Icon(Icons.inbox_rounded),
         label: 'Inbox',
+      ),
+      const NavigationDestination(
+        icon: Icon(Icons.person_outline),
+        selectedIcon: Icon(Icons.person_rounded),
+        label: 'Account',
       ),
     ];
   }
